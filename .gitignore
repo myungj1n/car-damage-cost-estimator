@@ -1,0 +1,44 @@
+# Trained models (too large for GitHub)
+models/*.keras
+models/*.h5
+models/*.pkl
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset cache (Kaggle)
+.cache/
+
+# Training outputs
+*.png
+*.jpg
+*.jpeg
+logs/
+checkpoints/
+
+# Environment variables
+.env
+.env.local
